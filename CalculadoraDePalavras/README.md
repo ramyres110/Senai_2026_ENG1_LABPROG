@@ -6,7 +6,7 @@ Faça um código que, via argumentos, recebe um texto e conte a quantidade de pa
 
 * [X] Faça um código que leia os argumentos
 * [X] Conte a quantidade de palavras
-* [ ] Conte a quantidade de vogais
+* [X] Conte a quantidade de vogais
 * [X] Estatística da quantidades de palavras impares 
 * [X] Estatística da quantidades de palavras pares
-* [ ] Imprmir as informações 
+* [X] Imprmir as informações 
