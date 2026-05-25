@@ -1,0 +1,74 @@
+Atividade 007 - LeetCode - Números romanos para inteiro
+
+1. Crie um repositório no Github  com o nome Senai_LLP_Romanos e versione o código do projeto abaixo.
+
+2. Problema:
+
+Os numerais romanos são representados por sete símbolos diferentes: I, V, X, L, C, D e M. 
+
+Símbolo Valor 
+* I = 1 
+* V = 5 
+* X = 10 
+* L = 50 
+* C = 100 
+* D = 500 
+* M = 1000 
+
+Por exemplo, 2 é escrito como II em numeral romano, simplesmente a soma de dois uns. 
+
+12 é escrito como XII, que é simplesmente X + II. 
+
+O número 27 é escrito como XXVII, que é XX + V + II. 
+
+Os numerais romanos são geralmente escritos do maior para o menor, da esquerda para a direita. 
+No entanto, o numeral para quatro não é IIII. 
+Em vez disso, o número quatro é escrito como IV
+Como o I vem antes do V, subtraímos 1 do 5, resultando em 4. 
+O mesmo princípio se aplica ao número nove, que é escrito como IX. 
+
+Existem seis casos em que a subtração é usada:
+
+* Ipode ser colocado antes de V(5) e X(10) para formar 4 e 9. 
+* Xpode ser colocado antes de L(50) e C(100) para formar 40 e 90. 
+* Cpode ser colocado antes de D(500) e M(1000) para formar 400 e 900.
+
+Dado um numeral romano, converta-o em um número inteiro.
+
+3. Implementação
+
+a) Crie um arquivo RomanoParaInt.java com o código base:
+```
+public class RomanoParaInt {
+    public static int AlgarismoRomanoParaInteiro(String s) {}
+
+    public static void main(String[] args) {
+	// Passando argumento.
+        if (args.length > 0) {
+            String algarismos = String.join("", args);
+            int valor = AlgarismoRomanoParaInteiro(algarismos);
+            System.out.println(valor);
+            return;
+        }
+	// Por pipe | ou interação com usuário.
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Informe o algarismo: ");
+        String algarismos = sc.nextLine();
+
+        int valor = AlgarismoRomanoParaInteiro(algarismos);
+        System.out.println(valor);
+    }
+}
+```
+
+
+4. Entrega
+
+Enviar link do repositório do Github.
+
+
+
+
+Referência: https://leetcode.com/problems/roman-to-integer/description/
+
+Ficar feliz!

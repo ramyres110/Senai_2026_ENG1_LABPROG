@@ -1,0 +1,38 @@
+Atividade 004 - Receitas
+
+Crie um repositório no Github  e implemente os algoritmos para (Senai_LLP_File_LivroDeReceitas):
+Implemente uma aplicação que retorne implemente um Livro de Receitas:Recebe o nome da receita. Ex: Bolo de LaranjaRecebe os ingredientes, um a um, informando a descrição e a quantidade, até que o usuário não informe mais descrição.Recebe as instruções passo-a-passo enumerado, passo 1, passo 2, etc, até o usuário não informar.Deve salvar em um arquivo com o nome da receita contendo na primeira linha o nome da receita, pula uma linha, os ingredientes numerados, pula uma linha as instruções.Ficar feliz!
+
+Caso não utilize File, utilizar redirecionador de saída padrão.
+Enviar link do repositório no Github.
+
+------- Alteração ------------
+
+ATIVIDADE
+
+Crie um repositório no Github  e implemente os algoritmos para (Senai_LLP_File_LivroDeReceitas):
+Implemente uma aplicação que retorne implemente um Livro de Receitas:
+
+Recebe o nome da receita. Ex: 
+>>>>Receita: Bolo de Laranja
+Recebe os ingredientes, um a um, informando a descrição e a quantidade, até que o usuário não informe mais descrição. Ex:
+>>>>Ingrediente: Farinha de trigo
+>>>>Quantidade: 3 colheres de sopa
+>>>>Ingrediente: Ovos
+>>>>Quantidade: 2 un
+>>>>
+
+Recebe as instruções passo-a-passo enumerado, passo 1, passo 2, etc, até o usuário não informar. Ex:
+>>>>Passo 1: Quebre os ovos em um recipiente
+>>>>Passo 2: Coloque a farinha gradualmente
+>>>>Passo 3: Quebre os ovos em um recipiente
+>>>>
+
+Imprimir a receita. 
+
+Deve salvar em um arquivo (pode ser utilizado o redirecionar padrão ">") com o nome da receita contendo na primeira linha o nome da receita, pula uma linha, os ingredientes numerados, pula uma linha as instruções.
+
+Ficar feliz!
+
+Caso não utilize File, utilizar redirecionador de saída padrão.
+Enviar link do repositório no Github.

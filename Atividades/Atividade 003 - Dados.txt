@@ -1,0 +1,13 @@
+Atividade 003 - Dados
+
+1. Crie um repositório no Github  e implemente os algoritmos para (Senai_LLP_Dados):
+2. Implemente uma aplicação que retorne os valores sorteados de dado(s)
+
+
+A aplicação recebe a quantidade de dados ou nenhuma informação (considerar como 1 dado) e gera “randomicamente” (Math.random) um número de 1 a 6 para cada dado.
+
+Retorna o desenho do dado com a quantidade sorteada, conforme slide no classroom.
+
+Enviar link do repositório do Github.
+
+Ficar feliz!

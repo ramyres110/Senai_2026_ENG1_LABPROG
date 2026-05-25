@@ -1,0 +1,47 @@
+Atividade 005 - Placar do Campeonato
+
+Crie um repositório no Github  com o nome Senai_LLP_File_Brasileirao e implemente o programa:
+
+Sistema de Classificação de Campeonato
+
+## Objetivo 
+
+Desenvolver uma aplicação em Java para ler um arquivo de texto contendo resultados de partidas de futebol, processar a pontuação de cada time e exibir a tabela de classificação final, seguindo os critérios de desempate comuns no futebol. 
+
+ ## Descrição do Arquivo de Entrada (jogos.txt), exemplo em anexo. 
+
+O arquivo contém as partidas, onde cada linha representa um jogo, formatado da seguinte forma: `nº da rodada,time A,time B,resultado` 
+
+Exemplo de uma linha: `1,Flamengo,Palmeiras,2x1` 
+
+Regras de Pontuação:
+Vitória: 3 pontos
+Empate: 1 ponto
+Derrota: 0 pontos 
+Regras do saldo de Gols: 
+Gols Feitos - Gols Sofridos
+
+ ## Desafio 
+
+Seu programa deve: 
+
+1. Ler o arquivo `jogos.txt` linha por linha. 
+2. Processar os dados: Identificar o vencedor, o perdedor ou o empate a partir da string de resultado (ex: "2x1"). 
+3. Armazenar o estado: Utilizar uma estrutura de dados para acumular os pontos de cada time. 
+4. Ordenar: Exibir a tabela final ordenada de forma decrescente pelos pontos. 
+5. Critérios de Desempate: Se dois times tiverem o mesmo número de pontos, o desempate deve ser feito pelo saldo de gols (Gols Feitos - Gols Sofridos). 
+
+ ## Resultado
+
+Esperada Uma classe principal `Main` que imprima no console a tabela formatada: 
+
++---+----------+--------+ -----+
+| #   | Time          | Pontos | Saldo | 
++---+----------+-------+------+ 
+| 1º  | Flamengo | X           |  Y       |
+| 2º  | Palmeiras | X           |  Y       | 
+...
+
+## Entrega
+
+Enviar link do repositório

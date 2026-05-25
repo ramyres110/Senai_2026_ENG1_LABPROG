@@ -1,0 +1,62 @@
+Atividade 006 - Transportadora
+
+1. Crie um repositório no Github  com o nome Senai_LLP_Transportadora e versione o código do projeto abaixo.
+
+
+Transportadora POO:
+
+1. Crie um arquivo Transportadora.java e escreva as definições descritas abaixo:
+
+1. Crie uma classe abstrata Veiculo que tenha os atributos abaixo privado com métodos getters e setters públicos:
+* Ano de Fabricação
+* Marca
+* Modelo
+* Propulsão
+
+1. Cria 3 class herdeira de Veiculo: VeiculoTerreste, VeiculoAereo e VeiculoFluvial
+
+1. VeiculoTerreste terá os atributos abaixo privado com métodos getters e setters públicos:
+* Qtde de rodas
+* Qtde de portas
+* Placa
+* Chassi
+
+1. VeiculoAereo terá os atributos abaixo privado com métodos getters e setters públicos:
+* Registro Aeronautico Brasileiro (RAB)
+* Qtde de motorores
+
+1. VeiculoFluvial
+* Nº Registro na Marinha
+* Boca (largura)
+* Calado Aéreo (altura) 
+
+1. Crie uma classe Caminhao que herda de VeiculoTerreste que tem os atributos abaixo privado com métodos getters e setters públicos:
+* Qtde de eixos
+* Capacidade
+* Carroceria (Basculante, Graneleiro, Baú, etc)
+
+1. Crie uma classe Aviao que herda de  VeiculoAereo que tem os atributos abaixo privado com métodos getters e setters públicos:
+* Capacidade de carga
+* Volume e Peso Máximo de Decolagem (MTOW)
+
+1. Crie uma classe PortaContainer que herda de  VeiculoFluvial que tem os atributos abaixo privado com métodos getters e setters públicos:
+* Capacidade de Carga (TEU)
+* Categoria (Feeders, Panamax, Ultra Large Container Vessels (ULCV), etc)
+
+
+1. Crie uma interface Transporte com os métodos abaixo:
+* Calcular Frete que tem como parâmetro o peso, altura, largura e distância, que retorna o preço.
+
+1. Implemente a interface Transporte na classe Veiculo e programe os contratos nas classes: Caminhao, Aviao e PortaContainer.
+* Calculo do Caminhao: (peso + (altura * largura)) * (distância * preço do diesel[6.99])
+* Aviao: ((peso * pesos) * (altura * largura)) * (distância * preço do querosene[9.99])
+* PortaContainer: (peso + (altura * largura) * distancia)
+
+1. No classe Transportadora crie um método que recebe como parâmetro a interface Tranporte e retorna o valor do frete.
+
+1. Na classe Transportadora, no método principal, peça para o usuário informar o peso, a altura, a largura e a distância para o frete da encomenda e retorne o preço calculado para ir no Caminhao, Aviao ou no PortaContainer.
+
+
+Enviar link do repositório do Github.
+
+Ficar feliz!

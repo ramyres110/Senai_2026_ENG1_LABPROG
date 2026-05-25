@@ -1,0 +1,10 @@
+Atividade 001 - Argumentos
+
+
+1. Crie um repositório no Github  com o nome Senai_LLP_Argumentos e versione o código do projeto abaixo.
+
+
+Faça um código que, via argumentos, recebe um texto e conte a quantidade de palavras, a quantidade de vogais (sem acentos) e a estatística da quantidades de palavras com quantidade de letras impares e pares.
+
+
+Enviar link do github

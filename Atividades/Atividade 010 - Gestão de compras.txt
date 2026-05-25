@@ -1,0 +1,89 @@
+Atividade 010 - Gestão de compras
+
+Crie um repositório no Github (Senai_LLP_ListaDeCompras) e implemente um programa, em Java, que:
+
+Gestão de compras:
+
+1. Um programa que tenha como funcionalidade de criação de lista de compras, a execução da compra e 
+pesquisa compras realizadas.
+
+2. Na funcionalidade "Nova lista" o usuário irá criar uma lista (informando um nome) e informar os items (descrição, unidade (UN,CX,KG,LT) e quantidade).
+
+3. Na funcionalidade "Fazer compras" o usuário irá selecionar uma lista (criada no passo anterior) e ir passando item a item para informar o
+preço da unidade (se informado 0 como preço o item está em falta e deve pular para o próximo) e a quantidade da compra, visualizando o total do item e ir para o próximo até o fim da lista (deve mostrar um indicador de items (Ex: 1/5, 1 item de 5 no total).
+
+4. Na funcionalidade "Relatório" o usuário irá selecionar uma lista e verá o total da compra com os itens, com quantidades, preço unitário e o total.
+
+
+* Crie o projeto utilizando o Maven
+
+* Utilize POO
+
+* Deve iniciar o programa apresentando um menu conforme abaixo:
+
+```
+.-------------------.
+| Gestão de compras |
+'-------------------'
+Selecione a opção:
+1. Nova lista
+2. Fazer compras
+3. Relatório
+0. Sair
+
+>> Opção: _ 
+```
+
+* Na opção de "Nova lista" irá:
+- Sugerir o nome da lista no formato "lista_[anomesdia]" como padrão (digitar Enter sem informar um valor) ou receber um nome
+- Exemplo:
+
+```
+>> Nova lista, informe o nome [lista_20260510]: _
+```
+
+- Lista criada como o nome, deve adicionar os items (descrição, unidade (UN, KG, LT), quantidade) até não informar uma descrição (salvando a lista)
+- Exemplo:
+```
+>> ---Informe o item---------
+>> Descrição: Arroz Cristal
+>> Unidade (UN, KG, LT): KG
+>> Quantidade: 5
+>> ---Informe o item---------
+>> Descrição:
+>> ---Lista salva!---------
+```
+
+* Na opção de "Fazer compras" irá:
+- Selecionar uma lista e iniciar a compra
+- Apresentar o produto, a unidade e a quantidade
+- E solicitar a informação de preço e quantidade (com padrão do valor informado anteriormente)
+- Exemplo:
+```
+>> ---Fazer compras [lista_20260510]---
+>> (1/5) Produto Arroz Cristal 5 KG
+>> Quantidade [5 KG]:
+>> Preço: 29.55
+>> ...
+>> ---Total------------------
+>> R$: 240.79
+```
+
+* Na opção "Relatório"
+- Selecionar uma lista
+- Imprimir a compra realizada
+- Exemplo:
+```
+>> ---Relatório [lista_20260510]---
+>> Item, Descrição, Qtd, UN, Preço
+>> 1, Arroz Cristal, 5, KG, 29.55
+>> 2, Feijão Barão, 1, KG, 9.29
+>> ...
+>> 0, TOTAL, 6, UN, 240.79
+```
+
+
+
+
+
+

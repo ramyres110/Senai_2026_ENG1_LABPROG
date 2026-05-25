@@ -1,0 +1,47 @@
+Atividade 006 - E-mail válido
+
+1. Crie um repositório no Github  com o nome Senai_LLP_Email e versione o código do projeto abaixo.
+
+Email único
+
+Todo e-mail válido consiste em um nome local e um nome de domínio, separados pelo símbolo '@'. 
+
+Além de letras minúsculas, o e-mail pode conter um ou mais '.' ou '+'. 
+
+* Por exemplo, em "alice@leetcode.com", "alice" é o nome local e "leetcode.com" é o nome de domínio. 
+
+Se você adicionar pontos '.' entre alguns caracteres na parte do nome local de um endereço de e-mail, as mensagens enviadas para esse endereço serão encaminhadas para o mesmo endereço, sem os pontos no nome local. 
+
+Observe que essa regra não se aplica a nomes de domínio. 
+
+* Por exemplo, "alice.z@leetcode.com" e "alicez@leetcode.com" encaminham para o mesmo endereço de e-mail. 
+
+Se você adicionar um sinal de mais '+' no nome local, tudo após o primeiro sinal de mais será ignorado. 
+
+Isso permite que certos e-mails sejam filtrados. 
+
+Observe que essa regra não se aplica a nomes de domínio. 
+
+* Por exemplo, "m.y+name@email.com" será encaminhado para "my@email.com". 
+
+É possível usar ambas as regras ao mesmo tempo. 
+
+Dado um array de strings `emails` onde enviamos um e-mail para cada `emails[i]`, retorne o número de endereços diferentes que efetivamente receberam os e-mails.
+
+
+* Example 1:
+
+Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+Output: 2   // Explicação: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
+
+* Example 2:
+
+Input: emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
+Output: 3
+
+
+Referência: https://leetcode.com/problems/unique-email-addresses/description/
+
+Enviar link do repositório do Github.
+
+Ficar feliz!
